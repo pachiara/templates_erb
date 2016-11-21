@@ -1,0 +1,61 @@
+@import "colors";
+section {
+  margin: 64px 0 0 0;
+  &.fascia-grey {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #eee;
+  }
+  &.fascia-dark-gray {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #fff;
+    background-color: #444e57;
+    a {
+      color: #fff;
+    }
+  }
+  &.fascia-white {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #fff;
+  }
+  &.fascia-green {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #fff;
+    background-color: $verde-scuro;
+    a {
+      color: #fff;
+    }
+  }
+}
+// MEDIA
+/* < 992px */
+@media (max-width: 991px) {
+  section {
+    margin: 32px 0 0 0;
+  }
+}
+/* Mobile Phone to Tablets < 768 */
+@media (max-width: 767px) {
+  section {
+    margin: 24px 0 0 0;
+    &.fascia-grey {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    &.fascia-dark-gray {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    &.fascia-white {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+    &.fascia-green {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  }
+}

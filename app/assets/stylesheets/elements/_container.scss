@@ -1,0 +1,35 @@
+.container {
+  padding-right:12px;
+  padding-right:16px;
+  padding-left:12px;
+  padding-left:16px;
+  margin-right:auto;
+  margin-left:auto;
+}
+@media (min-width:768px) {
+  .container{
+    width:auto;
+    padding-right:16px;
+    padding-left:16px;
+  }
+}
+@media (min-width:992px) {
+  .container{
+    width:auto;
+    padding-right:24px;
+    padding-left:24px;
+  }
+}
+@media (min-width:1280px) {
+  .container{
+    width:1280px;
+    padding-right:24px;
+    padding-left:24px;
+  }
+}
+.container-fluid {
+  padding-right:12px;
+  padding-left:12px;
+  margin-right:auto;
+  margin-left:auto;
+}

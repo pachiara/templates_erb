@@ -1,0 +1,80 @@
+@import "colors";
+// SOCIAL
+.rounded-box {
+  margin-bottom: 24px;
+  background-color: #fff;
+  border-radius: 6px;
+  .content {
+    padding: 24px;
+    p {
+      color: $grigio-testo;
+    }
+    .h6 {
+      margin-bottom: 5px !important;
+    }
+    time {
+      display: block;
+      float: left;
+      width: 100%;
+      margin-bottom: 10px;
+      clear: both;
+    }
+  }
+}
+.social-footer {
+  padding: 0 0 24px 24px !important;
+  li {
+    color: $verde-chiaro;
+    i {
+      margin-right: 8px;
+      color: $verde-chiaro;
+    }
+  }
+}
+.socialWrapper {
+  float: left;
+  width: 32px;
+  height: 32px;
+  background-color: $verde-chiaro;
+  border-radius: 20px;
+  &:hover {
+    background: $verde-scuro none repeat scroll 0 0;
+  }
+}
+a.socialWrapper {
+  margin-left: 4px;
+  margin-bottom: 10px;
+  padding-left: 0.18em;
+  font-size: 24px;
+  color: #fff;
+  &:hover {
+    color: #fff !important;
+    text-decoration: none;
+  }
+}
+
+.social-footer {
+  padding: 0 0 24px 24px !important;
+  li {
+    color: $grigio-testo;
+    i {
+      margin-right: 8px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .socialWrapper {
+    width: 28px;
+    height: 28px;
+    a {
+      font-size: 20px;
+    }
+  }
+  a.socialWrapper {
+    padding-left: 0.08em;
+  }
+  .at-fb {
+    font-size: 1.2em;
+  }
+}

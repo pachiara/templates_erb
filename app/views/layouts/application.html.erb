@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>theme_rl</title>
+    <%= csrf_meta_tags %>
+    <meta name="description" content="Tema RL">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body class="home">
+    <%= render :partial => "layouts/header" %>
+    <%= yield %>
+    <%= render :partial => "layouts/footer" %>
+    <%= render :partial => "layouts/button_up" %>
+  </body>
+
+</html>

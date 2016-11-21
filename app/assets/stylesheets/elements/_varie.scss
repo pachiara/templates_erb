@@ -1,0 +1,29 @@
+@import "colors";
+// VARIE
+input:focus, button:focus, textarea:focus, select:focus {
+  text-decoration: none !important;
+  outline: 3px solid $verde-focus !important;
+}
+// FONT & TEXT
+.text-normal {
+  font-weight: normal;
+}
+// ELEMENTI
+.btn-with-icon {
+  padding: 12px;
+  border-radius: 6px;
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+h4 {
+  &.icon-image {
+    display: flex;
+    align-items: stretch;
+  }
+  &.icon-image * {
+    padding-right: 10px;
+  }
+}
+time {
+  color: $grigio-testo;
+}

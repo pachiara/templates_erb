@@ -1,0 +1,103 @@
+@import "colors";
+// MAIN MENU LATERALE
+#mainmenu {
+  .accordian-toggle {
+    margin-top: -1px;
+    margin-bottom: 0;
+    text-decoration: underline;
+    border-top: 3px solid $verde-chiaro;
+    border-bottom: 3px solid $verde-chiaro;
+    &::after {
+      position: relative;
+      bottom: 6px;
+      float: right;
+      font-family: "FontAwesome";
+      font-size: 1.5em;
+      color: #003e54;
+      content: "";
+    }
+    &.collapsed {
+      text-decoration: none;
+      border: 1px solid #ddd;
+      border-right: 0;
+      border-left: 0;
+      &::after {
+        position: relative;
+        bottom: 6px;
+        float: right;
+        font-family: "FontAwesome";
+        font-size: 1.5em;
+        color: #003e54;
+        content: "";
+      }
+    }
+  }
+  .sublinks {
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0;
+    padding-inline-start: 0;
+    li {
+      padding-left: 40px !important;
+      background-color: #e9f5e9;
+      border-color: #fff;
+    }
+  }
+  a {
+    color: #003e54;
+    &:hover {
+      color: #921116;
+      text-decoration: underline !important;
+    }
+  }
+}
+// SIDEBAR
+.sidebar-offcanvas {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  z-index: 3000;
+  width: 360px;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  -webkit-transition: all .3s ease-in-out 0s;
+  -o-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+  .scrolling-nav-wrapper {
+    height: 100%;
+    margin-top: 48px;
+    overflow-y: scroll;
+    border: 0 solid #ccc;
+  }
+  #chiudimenu {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  .list-group-item {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+  }
+  .nav-stacked > li + li {
+    margin-top: 0;
+    border: 0;
+  }
+  .nav > li a {
+    position: relative;
+    display: block;
+    padding: 16px 24px;
+  }
+  &.active {
+    left: 0;
+  }
+}

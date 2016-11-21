@@ -1,0 +1,508 @@
+@import "colors";
+// HEADER
+#mainheader {
+  height: 198px;
+  color: #fff;
+  background-color: $verde-chiaro; /* verde */
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+  .preheader {
+    height: 48px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    line-height: 48px;
+    background-color: #30373d;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    .governo {
+      padding-left: 194px;
+      font-size: 16px;
+      color: #fff;
+      a {
+        color: #fff;
+      }
+    }
+    .accedi {
+      position: absolute;
+      right: 0;
+      height: 48px;
+      color: #fff;
+      text-align: center;
+      background-color: #06c;
+      -webkit-transition: all .3s ease 0s;
+      -o-transition: all .3s ease 0s;
+      transition: all .3s ease 0s;
+      a {
+        font-size: 16px;
+        color: #fff;
+        -webkit-transition: all 300ms ease 0s;
+        -o-transition: all 300ms ease 0s;
+        transition: all 300ms ease 0s;
+      }
+    }
+  }
+  .logo-wrapper {
+    margin-top: 20px;
+    margin-left: 64px;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+  }
+  .logo-img {
+    display: table-cell;
+    max-width: 86px;
+    img {
+      height: 96px;
+      max-height: 96px;
+      -webkit-transition: all .3s ease 0s;
+      -o-transition: all .3s ease 0s;
+      transition: all .3s ease 0s;
+    }
+    a:focus {
+      outline: 3px solid $verde-focus !important;
+    }
+  }
+  .logo-text {
+    display: table-cell;
+    padding-left: 32px;
+    vertical-align: middle;
+    h1, .h1 {
+      padding-top: 4px;
+      margin: 0;
+      /*   line-height:96px;*/
+      font-size: 1.77777em;
+      -webkit-transition: all .3s ease 0s;
+      -o-transition: all .3s ease 0s;
+      transition: all .3s ease 0s;
+    }
+    h1 a, .h1 a, h1 a:hover, .h1 a:hover {
+      color: #fff;
+    }
+    h1 a:focus, .h1 a:focus, h1 a:hover:focus, .h1 a:hover:focus {
+      text-decoration: underline;
+      outline: 3px solid $verde-focus !important;
+    }
+  }
+  .social {
+    padding-top: 12px;
+    margin-bottom: 0;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    a {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      margin: 0;
+      font-size: 1em;
+      line-height: 36px;
+      color: $verde-scuro !important;
+      text-align: center;
+      background: #fff none repeat scroll 0 0;
+      border-radius: 50%;
+      &:hover {
+        color: #fff !important;
+        text-decoration: none;
+        background: $verde-scuro none repeat scroll 0 0;
+      }
+    }
+    li {
+      padding-right: 6px;
+      padding-left: 6px;
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+  .cerca {
+    margin-top: 8px;
+    .form-control {
+      height: 50px;
+      border: 0;
+      border-radius: 0;
+    }
+    .btn-cerca {
+      height: 50px;
+      background-color: #c0b192;
+      border: 0;
+      border-radius: 0;
+      img {
+        height: 26px;
+      }
+    }
+  }
+
+  .menu-btn {
+    position: absolute;
+  }
+  &.ridotto {
+    height: 64px;
+    .social {
+      height: 0;
+      max-height: 0;
+      padding-top: 0;
+      margin-bottom: 0;
+      overflow: hidden;
+    }
+    .preheader {
+      height: 4px;
+      overflow: hidden;
+      .accedi {
+        height: 4px;
+        overflow: hidden;
+        a {
+          font-size: 1px;
+        }
+      }
+    }
+    .logo-wrapper {
+      margin-top: 0;
+      margin-left: 64px;
+    }
+    .logo-img {
+      max-width: 45px;
+      img {
+        height: 50px;
+        margin-top: -6px;
+      }
+    }
+    .logo-text {
+      vertical-align: baseline;
+      h1, .h1 {
+        margin-top: 20px;
+        font-size: .7777em;
+        line-height: 1.2em;
+      }
+    }
+    .menu-btn {
+      margin: 18px 24px 10px 24px;
+      background-image: none;
+    }
+    .cerca {
+      .form-control, .btn-cerca {
+        height: 42px;
+      }
+    }
+  }
+}
+// BOTTONE MENU
+.menu-btn {
+  display: block !important;
+  float: left;
+  width: 32px;
+  height: 32px;
+  padding: 0 0 12px;
+  margin: 59px 40px 59px 24px;
+  background-color: transparent;
+  background-image: url("menu.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  -webkit-background-size: 32px 7px;
+  background-size: 32px 7px;
+  border: 0 none;
+  .icon-bar {
+    position: relative;
+    z-index: 171;
+    width: 32px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+    + .icon-bar {
+      margin-top: 4px;
+    }
+  }
+}
+@media (min-width: 1279px) and (max-width: 1440px) {
+  #mainheader {
+    .preheader .governo {
+      padding-left: 194px !important;
+    }
+    .logo-wrapper {
+      margin-left: 64px !important;
+    }
+    &.ridotto {
+      .preheader .governo {
+        padding-left: 194px !important;
+      }
+      .logo-wrapper {
+        margin-left: 64px !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 1279px) {
+  #mainheader {
+    .preheader .governo {
+      padding-left: 130px;
+    }
+    .logo-wrapper {
+      margin-left: 0;
+    }
+    &.ridotto {
+      .preheader .governo {
+        padding-left: 130px;
+      }
+      .logo-wrapper {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1279px) {
+  #mainheader {
+    .preheader .governo {
+      padding-left: 194px;
+    }
+    .social a {
+      width: 24px;
+      height: 24px;
+      margin: 0;
+      font-size: 1em;
+      line-height: 28px;
+    }
+  }
+}
+/* < 992px */
+@media (max-width: 991px) {
+  #mainheader {
+    height: 168px;
+    .preheader .governo {
+      padding-left: 172px !important;
+    }
+    .logo-wrapper {
+      margin-left: 72px;
+    }
+    .logo-img {
+      display: table-cell;
+      max-width: 72px;
+      img {
+        height: 80px;
+        max-height: 80px;
+        -webkit-transition: height 1s ease;
+        -o-transition: height 1s ease;
+        transition: height 1s ease;
+      }
+    }
+    .logo-text {
+      display: table-cell;
+      padding-left: 16px;
+      h1, .h1 {
+        margin: 0;
+        font-size: 1.333em;
+        line-height: 1.2em;
+      }
+      h1 span, .h1 span {
+        display: table-cell;
+      }
+    }
+    .cerca {
+      margin-top: 40px;
+      .form-control {
+        height: 42px;
+      }
+      .btn-cerca {
+        width: 42px;
+        height: 42px;
+        padding: 4px 8px;
+        img {
+          height: 22px;
+        }
+      }
+    }
+    .social {
+      display: none;
+    }
+    .menu-btn {
+      display: block !important;
+      float: left;
+      width: 32px;
+      height: 32px;
+      padding: 0 0 12px;
+      margin: 44px 4px 43px 16px;
+      -webkit-background-size: 32px 7px;
+      background-size: 32px 7px;
+      border: 0 none;
+      .icon-bar {
+        position: relative;
+        z-index: 171;
+        width: 32px;
+        height: 4px;
+        background-color: #fff;
+        border-radius: 10px;
+        + .icon-bar {
+          margin-top: 4px;
+        }
+      }
+    }
+    &.ridotto {
+      .cerca {
+        margin-top: 8px;
+      }
+      .accedi {
+        height: 4px;
+      }
+      .logo-wrapper {
+        margin-left: 72px;
+      }
+    }
+  }
+}
+/* Mobile Phone to Tablets < 768 */
+@media (max-width: 767px) {
+  #mainheader {
+    height: 148px;
+    .preheader .governo {
+      padding-left: 0 !important;
+      font-size: .6667em;
+      font-weight: bold;
+      text-align: center;
+      text-indent: 0 !important;
+    }
+    .logo-wrapper {
+      margin-left: 45px;
+    }
+    .logo-img {
+      display: table-cell;
+      max-width: 45px;
+      img {
+        height: 50px;
+        max-height: 50px;
+        margin-top: 0;
+        -webkit-transition: height 1s ease;
+        -o-transition: height 1s ease;
+        transition: height 1s ease;
+      }
+    }
+    .logo-text {
+      display: table-cell;
+      padding-left: 16px;
+      h1, .h1 {
+        margin: 0;
+        font-size: .722222em;
+        line-height: 1.2em;
+      }
+      h1 span, .h1 span {
+        display: table-cell;
+      }
+    }
+    .accedi {
+      height: 100%;
+      font-size: 12px;
+      color: #fff;
+      text-align: center;
+      background-color: #06c;
+      span {
+        display: none;
+      }
+    }
+    .cerca {
+      display: inline;
+      .form-control {
+        display: none;
+      }
+      .btn-cerca {
+        width: 42px;
+        height: 42px;
+        padding: 0;
+        margin: 29px 0;
+        img {
+          height: 26px;
+        }
+      }
+    }
+    .social {
+      display: none;
+    }
+    .menu-btn {
+      display: block !important;
+      float: left;
+      width: 32px;
+      height: 32px;
+      padding: 0 0 12px;
+      margin: 36px 4px 16px 16px;
+      background-color: transparent;
+      background-image: none;
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      -webkit-background-size: 32px 7px;
+      background-size: 32px 7px;
+      border: 0 none;
+      .icon-bar {
+        position: relative;
+        z-index: 171;
+        width: 32px;
+        height: 4px;
+        background-color: #fff;
+        border-radius: 10px;
+        + .icon-bar {
+          margin-top: 4px;
+        }
+      }
+    }
+    &.ridotto {
+      .preheader {
+        height: 4px;
+        overflow: hidden;
+        font-size: .722222222em;
+        .accedi {
+          height: 4px;
+          overflow: hidden;
+        }
+      }
+      .logo-wrapper {
+        margin-top: 0;
+        margin-left: 45px;
+      }
+      .logo-img {
+        max-width: 45px;
+        padding-top: 8px;
+        img {
+          height: 50px;
+        }
+      }
+      .logo-text {
+        display: table-cell;
+        vertical-align: middle;
+        h1, .h1 {
+          margin: 0;
+          font-size: .722222222em;
+          line-height: 16px;
+        }
+      }
+      .cerca {
+        .form-control {
+          display: none;
+        }
+        .btn-cerca {
+          width: 42px;
+          height: 42px;
+          padding: 0;
+          margin: 9px 0;
+          img {
+            height: 26px;
+          }
+        }
+      }
+      .menu-btn {
+        margin: 18px 4px 0 16px;
+        background-image: none;
+      }
+    }
+  }
+  #cercaMobile {
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding: 8px;
+    background-color: $verde-scuro;
+    .squared {
+      height: 40px;
+      border-radius: 0;
+    }
+  }
+}

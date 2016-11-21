@@ -1,0 +1,72 @@
+<header id="mainheader" class="navbar-fixed-top">
+
+  <!-- Fascia Governo & Servizi -->
+  <section class="preheader">
+      <h3 class="sr-only">Governo e Servizi</h3>
+      <div class="container">
+        <div class="row clearfix">
+          <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 governo">
+            <a title="Sito della Presidenza del Consiglio dei Ministri (apertura in nuova finestra)" href="http://www.governo.it" target="_blank">Governo Italiano</a>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 accedi">
+            <a title="Accedi ai servizi" href="sezione-servizi.html"><span>ACCEDI AI </span>SERVIZI</a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- End - Fascia Governo & Servizi -->
+
+  <!-- Button Menu -->
+  <button data-target=".sidebar-offcanvas" data-toggle="offcanvas"  class="navbar-toggle menu-btn pull-left">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+
+  <!-- Logo & Ricerca -->
+  <div class="container">
+      <div class="row clearfix">
+        <div class="col-lg-8 col-md-7 col-sm-7 col-xs-8 logo logo-wrapper">
+            <div class="logo-img"><a href="index.html" title="Regione Lombardia">
+              <%= image_tag("Regione-Lombardia-Stemma.svg", alt: "Logo di Regione Lombardia") %>
+            </a></div>
+            <div class="logo-text"><h1><a href="index.html" title="Regione Lombardia">Regione Lombardia</a></h1></div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-2 pull-right">
+            <ul class="list-inline text-right social">
+              <li class="small">Seguici su:</li>
+              <li><a href="#" title="Facebook"><span class="icon icon-facebook"></span></a></li>
+              <li><a href="#" title="Twitter"><span class="icon icon-twitter"></span></a></li>
+            </ul>
+
+            <!-- ricerca -->
+            <div class="cerca clearfix">
+              <form action="#" method="get">
+                  <div class="input-group">
+                    <input type="text" class="form-control squared" placeholder="Cerca" name="key">
+                    <span class="input-group-btn">
+                          <button class="btn btn-default btn-cerca pull-right" data-target="#cercaMobile" data-toggle="collapse" type="button"><span class="fa fa-lg fa-search fa-flip-horizontal" aria-hidden="true"></span></button>
+                    </span>
+                  </div>
+              </form>
+            </div>
+
+        </div>
+      </div>
+  </div>
+
+  <!-- INIZIO Ricerca Mobile -->
+  <div class="hidden-lg hidden-md hidden-sm collapse" id="cercaMobile" aria-expanded="false" role="form">
+      <form action="#" method="get" class="form">
+        <div class="container">
+            <div class="row">
+              <input type="text" class="form-control squared" placeholder="Cerca" name="key" id="key">
+            </div>
+        </div>
+      </form>
+  </div>
+  <!-- FINISCE Ricerca Mobile -->
+
+</header>
