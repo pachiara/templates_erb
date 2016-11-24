@@ -1226,3 +1226,399 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 595ms (Views: 592.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-11-24 14:03:00 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.erb (3.3ms)
+  Rendered layouts/_nav_bar.erb (2.6ms)
+  Rendered layouts/_menu_orizzontale.erb (0.5ms)
+  Rendered layouts/_footer.erb (1.4ms)
+  Rendered layouts/_button_up.erb (1.7ms)
+Completed 200 OK in 15646ms (Views: 15591.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-24 15:50:16 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_sezione_servizi.erb (1.0ms)
+  Rendered welcome/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_header.erb (8.9ms)
+  Rendered layouts/_nav_bar.erb (5.4ms)
+  Rendered layouts/_menu_orizzontale.erb (0.8ms)
+  Rendered layouts/_footer.erb (2.0ms)
+  Rendered layouts/_button_up.erb (3.0ms)
+Completed 200 OK in 620ms (Views: 611.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-24 16:08:43 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_sezione_servizi.erb (0.7ms)
+  Rendered layouts/_sezione_social.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_header.erb (17.9ms)
+  Rendered layouts/_nav_bar.erb (5.8ms)
+  Rendered layouts/_menu_orizzontale.erb (0.7ms)
+  Rendered layouts/_footer.erb (1.8ms)
+  Rendered layouts/_button_up.erb (1.8ms)
+Completed 200 OK in 430ms (Views: 427.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-24 16:10:46 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_sezione_servizi.erb (0.6ms)
+  Rendered layouts/_sezione_social.erb (0.8ms)
+  Rendered layouts/_sezione_vivere.erb (0.4ms)
+  Rendered welcome/index.html.erb within layouts/application (24.9ms)
+  Rendered layouts/_header.erb (17.4ms)
+  Rendered layouts/_nav_bar.erb (7.9ms)
+  Rendered layouts/_menu_orizzontale.erb (0.5ms)
+  Rendered layouts/_footer.erb (1.7ms)
+  Rendered layouts/_button_up.erb (2.5ms)
+Completed 200 OK in 437ms (Views: 435.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-24 16:11:04 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_sezione_servizi.erb (0.6ms)
+  Rendered layouts/_sezione_social.erb (1.0ms)
+  Rendered layouts/_sezione_vivere.erb (0.5ms)
+  Rendered welcome/index.html.erb within layouts/application (26.3ms)
+  Rendered layouts/_header.erb (17.7ms)
+  Rendered layouts/_nav_bar.erb (6.0ms)
+  Rendered layouts/_menu_orizzontale.erb (0.7ms)
+  Rendered layouts/_footer.erb (1.6ms)
+  Rendered layouts/_button_up.erb (1.9ms)
+Completed 200 OK in 316ms (Views: 313.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-24 16:19:27 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_sezione_servizi.erb (0.6ms)
+  Rendered layouts/_sezione_social.erb (0.9ms)
+  Rendered layouts/_sezione_vivere.erb (0.5ms)
+  Rendered layouts/_sezione_gallerie.erb (0.5ms)
+  Rendered welcome/index.html.erb within layouts/application (29.3ms)
+  Rendered layouts/_header.erb (17.5ms)
+  Rendered layouts/_nav_bar.erb (6.9ms)
+  Rendered layouts/_menu_orizzontale.erb (0.4ms)
+  Rendered layouts/_footer.erb (1.6ms)
+  Rendered layouts/_button_up.erb (2.2ms)
+Completed 200 OK in 452ms (Views: 449.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/pallomb01.jpg" for 127.0.0.1 at 2016-11-24 16:19:28 +0100
+Started GET "/images/pallomb02.jpg" for 127.0.0.1 at 2016-11-24 16:19:28 +0100
+Started GET "/images/pallomb04.jpg" for 127.0.0.1 at 2016-11-24 16:19:28 +0100
+  
+  
+  
+ActionController::RoutingError (No route matches [GET] "/images/pallomb01.jpg"):
+ActionController::RoutingError (No route matches [GET] "/images/pallomb02.jpg"):
+ActionController::RoutingError (No route matches [GET] "/images/pallomb04.jpg"):
+  
+  
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered collection of /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (55.0ms)
+  Rendered collection of /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (2.5ms)
+  Rendered collection of /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.8ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (183.9ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (42.9ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (45.9ms)
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (580.6ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (679.1ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (614.6ms)
+Started GET "/" for 127.0.0.1 at 2016-11-24 16:24:10 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_sezione_servizi.erb (0.6ms)
+  Rendered layouts/_sezione_social.erb (1.0ms)
+  Rendered layouts/_sezione_vivere.erb (0.5ms)
+  Rendered layouts/_sezione_gallerie.erb (66.5ms)
+  Rendered welcome/index.html.erb within layouts/application (94.9ms)
+  Rendered layouts/_header.erb (17.6ms)
+  Rendered layouts/_nav_bar.erb (6.3ms)
+  Rendered layouts/_menu_orizzontale.erb (0.7ms)
+  Rendered layouts/_footer.erb (1.8ms)
+  Rendered layouts/_button_up.erb (1.9ms)
+Completed 200 OK in 517ms (Views: 513.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/pallomb01.jpg" for 127.0.0.1 at 2016-11-24 16:24:11 +0100
+Started GET "/images/pallomb02.jpg" for 127.0.0.1 at 2016-11-24 16:24:11 +0100
+  
+Started GET "/images/pallomb04.jpg" for 127.0.0.1 at 2016-11-24 16:24:11 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/pallomb01.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/images/pallomb02.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/images/pallomb04.jpg"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered collection of /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (2.4ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (2.6ms)
+  Rendered collection of /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.4ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (336.3ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (365.3ms)
+  Rendered /Users/pachi/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (306.8ms)
+Started GET "/" for 127.0.0.1 at 2016-11-24 16:27:53 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_sezione_servizi.erb (0.4ms)
+  Rendered layouts/_sezione_social.erb (0.4ms)
+  Rendered layouts/_sezione_vivere.erb (0.4ms)
+  Rendered layouts/_sezione_gallerie.erb (2346.6ms)
+  Rendered welcome/index.html.erb within layouts/application (2358.2ms)
+  Rendered layouts/_header.erb (1.9ms)
+  Rendered layouts/_nav_bar.erb (1.6ms)
+  Rendered layouts/_menu_orizzontale.erb (0.3ms)
+  Rendered layouts/_footer.erb (1.1ms)
+  Rendered layouts/_button_up.erb (2.5ms)
+Completed 200 OK in 3727ms (Views: 3722.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-24 16:33:13 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_sezione_servizi.erb (0.3ms)
+  Rendered layouts/_sezione_social.erb (0.4ms)
+  Rendered layouts/_sezione_vivere.erb (0.4ms)
+  Rendered layouts/_sezione_gallerie.erb (76.8ms)
+  Rendered layouts/_sezione_questionario.erb (0.6ms)
+  Rendered welcome/index.html.erb within layouts/application (89.6ms)
+  Rendered layouts/_header.erb (18.0ms)
+  Rendered layouts/_nav_bar.erb (7.0ms)
+  Rendered layouts/_menu_orizzontale.erb (0.8ms)
+  Rendered layouts/_footer.erb (1.7ms)
+  Rendered layouts/_button_up.erb (2.2ms)
+Completed 200 OK in 414ms (Views: 411.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-24 16:36:31 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_sezione_servizi.erb (0.3ms)
+  Rendered layouts/_sezione_social.erb (0.4ms)
+  Rendered layouts/_sezione_vivere.erb (0.3ms)
+  Rendered layouts/_sezione_gallerie.erb (98.0ms)
+  Rendered layouts/_sezione_questionario.erb (0.5ms)
+  Rendered welcome/index.html.erb within layouts/application (109.6ms)
+  Rendered layouts/_header.erb (17.7ms)
+  Rendered layouts/_nav_bar.erb (6.6ms)
+  Rendered layouts/_menu_orizzontale.erb (0.5ms)
+  Rendered layouts/_footer.erb (1.8ms)
+  Rendered layouts/_button_up.erb (2.1ms)
+Completed 200 OK in 554ms (Views: 551.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-24 16:40:01 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered layouts/_sezione_servizi.erb (0.5ms)
+  Rendered layouts/_sezione_social.erb (0.5ms)
+  Rendered layouts/_sezione_vivere.erb (0.4ms)
+  Rendered layouts/_sezione_gallerie.erb (80.4ms)
+  Rendered layouts/_sezione_questionario.erb (0.7ms)
+  Rendered welcome/index.html.erb within layouts/application (93.0ms)
+  Rendered layouts/_header.erb (15.1ms)
+  Rendered layouts/_nav_bar.erb (6.4ms)
+  Rendered layouts/_menu_orizzontale.erb (0.5ms)
+  Rendered layouts/_footer.erb (1.5ms)
+  Rendered layouts/_button_up.erb (9.1ms)
+Completed 200 OK in 466ms (Views: 463.5ms | ActiveRecord: 0.0ms)
+
+
